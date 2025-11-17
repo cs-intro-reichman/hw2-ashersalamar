@@ -1,3 +1,18 @@
+/* Feedback:
+Great work overall! Just a couple of minor suggestions for clarity and style.
+Some variable names could be more descriptive.
+Also, ensure consistent indentation for better readability.
+as a "rule of thumb", always add a space before and after 
+ { } in if-else statements, do-while etc 
+always add a tab after ; and don't write two statements in the same line
+always add a tab after closing a loop or conditional block before writing the next statement
+for example: line 59 shouldn't be }System.out.println("Every one of the first " + seed + " hailstone sequences reached 1."); 
+it should be:
+  }
+System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
+Another styling mistake is writing two statements in the same line like in line 40
+ */
+
 // Demonstrates the Collatz conjecture.
 public class Collatz {
     public static void main(String args[]) {
@@ -44,3 +59,4 @@ public class Collatz {
     }System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 }
 }
+
