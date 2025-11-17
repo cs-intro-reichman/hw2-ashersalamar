@@ -1,9 +1,6 @@
-//feedback
-
-/*
-Great work boaz!
-*/
-
+/*Feedback:
+ * Well done!
+ */
 
 // Prints a crowd cheering output.
 public class Cheers {
